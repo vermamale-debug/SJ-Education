@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SJ Education - Learn, Explore, Grow. Quizzes, GK, puzzles, worksheets and fun educational activities for curious minds.">
+  <title>SJ Education | Learn • Explore • Grow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="SJ Education home">
+        <span class="brand-mark">SJ</span>
+        <span><strong>SJ Education</strong><small>Learn • Explore • Grow</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#learn">Learn</a>
+        <a href="#quizzes">Quizzes</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Join Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">WELCOME TO SJ EDUCATION</span>
+          <h1>Make learning <span>fun, curious & powerful.</span></h1>
+          <p>Discover quizzes, puzzles, worksheets, GK and creative learning activities designed to help young minds think, learn and grow every day.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#quizzes">Explore Quizzes →</a>
+            <a class="btn secondary" href="#learn">Start Learning</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Student-friendly</span><span>✓ Fun learning</span><span>✓ For curious minds</span>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="floating-chip chip-a">🧠 Brain Power</div>
+          <div class="floating-chip chip-b">⭐ Daily Learning</div>
+          <div class="learning-board">
+            <div class="board-top"><span>Today's Challenge</span><b>01</b></div>
+            <h3>Can you solve it?</h3>
+            <div class="puzzle">12 + 8 × 2 = ?</div>
+            <div class="answers"><button>28</button><button>40</button><button>32</button><button>36</button></div>
+            <p class="board-note">Think first. Then choose your answer!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="section">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow">LEARNING HUB</span><h2>Something exciting to learn every day.</h2><p>Explore bite-sized activities that turn practice into an enjoyable learning experience.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><div class="icon">🧠</div><h3>Brain Puzzles</h3><p>Challenge logic, observation and problem-solving skills with fun puzzles.</p><a href="#quizzes">Try a puzzle →</a></article>
+          <article class="feature-card reveal"><div class="icon">🌍</div><h3>GK & Current Learning</h3><p>Build knowledge with interesting general knowledge questions and educational facts.</p><a href="#quizzes">Test your GK →</a></article>
+          <article class="feature-card reveal"><div class="icon">📝</div><h3>Worksheets</h3><p>Practice Maths, English, Hindi, Science, Computer and more with printable activities.</p><a href="#subjects">Explore subjects →</a></article>
+          <article class="feature-card reveal"><div class="icon">🎨</div><h3>Creative Activities</h3><p>Learn through art, observation, creativity and activities that encourage imagination.</p><a href="#contact">Join the community →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="quizzes" class="section quiz-section">
+      <div class="container quiz-grid">
+        <div class="quiz-intro reveal">
+          <span class="eyebrow">QUICK QUIZ</span>
+          <h2>Think. Answer. Learn.</h2>
+          <p>Try this sample SJ Education quiz. Your score appears instantly.</p>
+          <div class="score-box"><span>Your score</span><strong id="score">0 / 5</strong></div>
+          <button id="resetQuiz" class="btn secondary">Reset Quiz</button>
+        </div>
+        <div class="quiz-card reveal" id="quizCard">
+          <div class="progress"><span id="progressBar"></span></div>
+          <div id="questionArea"></div>
+          <button id="nextBtn" class="btn primary next-btn">Next Question →</button>
+          <div id="quizResult" class="quiz-result" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="subjects" class="section">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow">EXPLORE</span><h2>Learning across subjects.</h2><p>Designed for school-age learners with simple, engaging practice.</p></div>
+        <div class="subject-grid">
+          <div class="subject math reveal"><span>➗</span><h3>Mathematics</h3><p>Numbers, operations & problem solving</p></div>
+          <div class="subject english reveal"><span>🔤</span><h3>English</h3><p>Vocabulary, grammar & comprehension</p></div>
+          <div class="subject hindi reveal"><span>अ</span><h3>Hindi</h3><p>भाषा, व्याकरण & शब्द ज्ञान</p></div>
+          <div class="subject science reveal"><span>🔬</span><h3>Science</h3><p>Explore the world around us</p></div>
+          <div class="subject computer reveal"><span>💻</span><h3>Computer</h3><p>Digital basics & computer knowledge</p></div>
+          <div class="subject art reveal"><span>🎨</span><h3>Art & Creativity</h3><p>Imagine, create & express</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="container stats">
+        <div><strong>∞</strong><span>Curiosity</span></div>
+        <div><strong>24/7</strong><span>Learning Inspiration</span></div>
+        <div><strong>100%</strong><span>Fun Focused</span></div>
+        <div><strong>🌍</strong><span>Open to Everyone</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-visual reveal"><div class="circle-logo">SJ<br><small>EDUCATION</small></div><div class="orbit orbit-1"></div><div class="orbit orbit-2"></div></div>
+        <div class="about-copy reveal"><span class="eyebrow">ABOUT SJ EDUCATION</span><h2>Learning has no boundaries.</h2><p>SJ Education is a learning-focused community created to make education more engaging through quizzes, puzzles, worksheets, subject activities and useful knowledge.</p><p>Our goal is simple: encourage children and curious learners to <strong>think independently, practice regularly and enjoy the journey of learning.</strong></p><div class="quote">“Every question is a chance to learn something new.”</div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-box">
+        <div><span class="eyebrow">CONNECT WITH US</span><h2>Be part of the SJ Education community.</h2><p>Follow the page, share learning activities and invite other curious minds to learn with us.</p></div>
+        <div class="contact-actions">
+          <!-- Replace the # below with your actual Facebook Page URL. -->
+          <a class="btn primary" href="#" id="facebookBtn" target="_blank" rel="noopener">Visit Facebook Page ↗</a>
+          <button class="btn secondary" id="shareBtn">Share SJ Education ↗</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner"><div><strong>SJ Education</strong><span>Learn • Explore • Grow</span></div><p>© <span id="year"></span> SJ Education. Made for curious minds.</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
